@@ -31,27 +31,6 @@
         <item name="android:textSize">@dimen/title_textSize</item>
     </style>
 
-    <!-- Favorite Icon -->
-    <style name="favoriteIcon">
-        <item name="android:layout_width">@dimen/favoriteIcon_size</item>
-        <item name="android:layout_height">@dimen/favoriteIcon_size</item>
-        <item name="android:layout_alignParentRight">true</item>
-        <item name="android:layout_alignParentTop">true</item>
-        <item name="android:layout_marginRight">@dimen/margin_6dp</item>
-        <item name="android:layout_marginTop">@dimen/margin_6dp</item>
-    </style>
-
-    <!-- FAB icon -->
-    <style name="FabStyle">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">@dimen/margin_16dp</item>
-        <item name="android:src">@drawable/ic_favorite_border_white_24dp</item>
-        <item name="borderWidth">0dp</item>
-        <item name="elevation">@dimen/elevation_fabStyle</item>
-        <item name="pressedTranslationZ">@dimen/pressedTranslationZ_fabStyle</item>
-        <item name="rippleColor">@android:color/white</item>
-    </style>
 
     <!-- Contacts TextView -->
     <style name="contactsTextStyle" parent="AppTheme">
