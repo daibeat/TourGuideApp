@@ -1,17 +1,28 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="192dp"
-    android:background="?attr/colorPrimaryDark"
-    android:padding="16dp"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark"
-    android:orientation="vertical"
-    android:gravity="bottom">
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_nav"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/image_location"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gamba3b" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/title_nav_drawer"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Header"
+        android:layout_marginBottom="35dp"
+        android:padding="@dimen/margin_16dp"
         android:textColor="@android:color/white"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        android:textSize="30dp"
+        tool:text="Barcelona Art Guide" />
 
-</LinearLayout>
+
+
+</RelativeLayout>
