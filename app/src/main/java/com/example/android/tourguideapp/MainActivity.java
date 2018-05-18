@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
         mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, navArray);
         mDrawerList.setAdapter(mAdapter);
 
+
         // Build the navigation header
         View headerView = View.inflate(this, R.layout.nav_header, null);
         ((ImageView) headerView.findViewById(R.id.image_nav)).setImageResource(R.drawable.gamba3b);

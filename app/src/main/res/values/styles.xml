@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">#5b92d1</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#B71C1C</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
@@ -16,12 +16,13 @@
         <item name="android:layout_height">@dimen/photoLocation_height</item>
         <item name="android:scaleType">centerCrop</item>
     </style>
-    
-    <!-- Title TextView -->
+
+
+    <!-- CardView TextView -->
     <style name="titleTextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/title_height</item>
-        <item name="android:background">@color/darkGray_transparent</item>
+        <item name="android:background">#805b92d1</item>
         <item name="android:maxLines">2</item>
         <item name="android:paddingLeft">@dimen/padding_16dp</item>
         <item name="android:paddingRight">@dimen/padding_6dp</item>
@@ -32,7 +33,7 @@
     </style>
 
 
-    <!-- Contacts TextView -->
+    <!-- CardView info TextView -->
     <style name="contactsTextStyle" parent="AppTheme">
         <item name="android:layout_width">@dimen/width_0dp</item>
         <item name="android:layout_height">wrap_content</item>
