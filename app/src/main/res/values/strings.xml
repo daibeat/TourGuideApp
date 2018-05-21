@@ -7,9 +7,9 @@
 
     <!-- Navigation Drawer Items -->
     <string name="navigation">Main Menu</string>
-    <string name="city_map">City Map</string>
-    <string name="general_info">General Information</string>
-    <string name="transport">Transport</string>
+    <string name="city_map"><![CDATA[<span style="color:#11B011">City Map</span>]]></string>
+    <string name="general_info"><![CDATA[<span style="color:#FF7F23">General Information</span>]]></string>
+    <string name="transport"><![CDATA[<span style="color:#0000FF">Transport</span>]]></string>
     <string name="city_drawer">Barcelona \nArt \nGuide</string>
     <string name="map_toDo_text">This screen would use Google Maps with bookmarks to show the
         existing galleries in the city.</string>
