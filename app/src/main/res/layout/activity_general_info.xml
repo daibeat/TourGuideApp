@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/interes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_info"
+            android:text="@string/informacion_de_interes"
+            android:textColor="@color/colorOrange"
+            android:textSize="@dimen/text_info_interes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/interes"
+            android:padding="@dimen/padding_info_ciudad"
+            android:text="@string/info_ciudad"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize_info_ciudad" />
+
+    </RelativeLayout>
+
+</ScrollView>

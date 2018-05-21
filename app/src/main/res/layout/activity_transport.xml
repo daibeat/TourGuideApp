@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/tmb"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_tmb"
+        android:layout_margin="@dimen/margin_tmb"
+        android:background="@null"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_tmb"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="@dimen/textsize_tmb"
+        android:textColor="#FFFFFF"
+        />
+
+    </RelativeLayout>

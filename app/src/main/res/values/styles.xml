@@ -1,13 +1,13 @@
 <resources>
 
     <!-- Base application theme. -->
+
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">#5b92d1</item>
         <item name="colorAccent">#B71C1C</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
     </style>
 
     <!-- Photo of a Location -->
@@ -17,12 +17,11 @@
         <item name="android:scaleType">centerCrop</item>
     </style>
 
-
     <!-- CardView TextView -->
     <style name="titleTextView">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/title_height</item>
-        <item name="android:background">#805b92d1</item>
+        <item name="android:background">#80FF5722</item>
         <item name="android:maxLines">2</item>
         <item name="android:paddingLeft">@dimen/padding_16dp</item>
         <item name="android:paddingRight">@dimen/padding_6dp</item>
@@ -32,9 +31,9 @@
         <item name="android:textSize">@dimen/title_textSize</item>
     </style>
 
-
     <!-- CardView info TextView -->
     <style name="contactsTextStyle" parent="AppTheme">
+        <item name="android:textColor">#FF5722</item>
         <item name="android:layout_width">@dimen/width_0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">2</item>
@@ -45,11 +44,13 @@
     </style>
 
     <style name="contactsTextStyle.price">
+        <item name="android:textColor">#FF5722</item>
         <item name="android:layout_weight">1</item>
         <item name="textAllCaps">true</item>
     </style>
 
     <style name="contactsTextStyle.detail">
+        <item name="android:textColor">#FF5722</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_weight">0</item>
     </style>

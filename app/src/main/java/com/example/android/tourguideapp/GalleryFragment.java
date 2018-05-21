@@ -32,7 +32,7 @@ public class GalleryFragment extends Fragment {
 
         museums.add(new Museum(getString(R.string.gallery_title), getString(R.string.gallery_address),
                 getString(R.string.gallery_hours),getString(R.string.gallery_price),
-                getString(R.string.gallery_description),R.drawable.carles_tache));
+                getString(R.string.gallery_description),R.drawable.carlestache_lhdpi));
 
         museums.add(new Museum(getString(R.string.gallery_title2), getString(R.string.gallery_address2),
                 getString(R.string.gallery_hours2),getString(R.string.gallery_price2),
@@ -65,7 +65,7 @@ public class GalleryFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 // Send intent to new {@Link LocationDetailActivity} with details for the current selected
-                // location. Currently not working.
+                // location.
                 Intent intent = new Intent(getActivity(), MuseumDetailActivity.class);
                 startActivity(intent);
 

@@ -1,38 +1,30 @@
 <resources>
-    <string name="app_name">BcnArtGuide</string>
+    <string name="app_name">Barcelona Art Guide</string>
 
+    <string name="hello_blank_fragment">Blank fragment</string>
+
+    <!-- Navigation Drawer Items -->
+    <string name="general_info">General Information</string>
+    <string name="city_map">City Map</string>
+    <string name="transport">Transport</string>
 
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
 
-    <!-- Navigation Drawer Items -->
-    <string name="navigation">Main Menu</string>
-    <string name="city_map">City Map</string>
-    <string name="general_info">General Information</string>
-    <string name="transport">Transport</string>
-    <string name="city_drawer">Barcelona \nArt \nGuide</string>
-    <string name="map_toDo_text">This screen would use Google Maps with bookmarks to show the
-        existing galleries in the city.</string>
+    <!-- CardView -->
 
     <string name="title_of_location">Title of a Place</string>
     <string name="address_text">Address of the place</string>
     <string name="hours_text">Opening Hours</string>
     <string name="price_text">Price</string>
     <string name="contacts_text">Location &amp; Contact</string>
-    <string name="navigation_text">Navigation</string>
+    <string name="map">Map</string>
     <string name="web_text">Web</string>
     <string name="share_text">Share</string>
 
-    <string name="image_location">Photo of a location</string>
-    <string name="favorite_icon">Heart shape icon for favorites</string>
+    <string name="image_location">Photo of a space</string>
+    <string name="museum_example">Showing contemporary Art</string>
     <string name="map_of_city">Map of the city</string>
-    <string name="expandableButton">Expandable arrow button that collapses TextView.</string>
-
-
-    <string name="museum_example">Showing contemporary Art.</string>
-
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="highlights">Highlights</string>
     <string name="category_museum">Museums</string>
     <string name="category_gallery">Galleries</string>
     <string name="category_event">Events</string>
@@ -43,113 +35,113 @@
 
     <!-- Caixaforum -->
     <string name="museum_title">Caixaforum</string>
-    <string name="museum_address">Av. de Francesc Ferrer i Guàrdia, 6, 08038 Barcelona</string>
+    <string name="museum_address">6 Francesc Ferrer i Guàrdia Av., Barcelona</string>
     <string name="museum_hours">Mon-Sun: 10/20h</string>
     <string name="museum_price">Free, temporary exhibitions paid </string>
-    <string name="museum_description">CaixaForum Barcelona es un centro cultural gestionado por la
-        La Caixa a través de su fundación como parte de la Obra Social de la entidad. Está pensado
-        para todos los públicos y ofrece una amplia oferta cultural, artística y educativa</string>
+    <string name="museum_description">CaixaForum Barcelona is a cultural center. Targeting all
+        audiences and offers a wide range of cultural, artistic and educational</string>
+
     <!-- Macba -->
     <string name="museum_title2">MACBA</string>
-    <string name="museum_address2">Plaça dels Àngels 1, 08001 Barcelona</string>
+    <string name="museum_address2">Àngels Square 1, Barcelona</string>
     <string name="museum_hours2">Mon-Sun: 10/19:30h (Tuesday closed)</string>
     <string name="museum_price2">Free Sat 16/20h, 10€</string>
-    <string name="museum_description2">El Museo de Arte Contemporáneo de Barcelona,conocido también
-        por sus siglas MACBA, está dedicado a la exposición de obras realizadas durante la segunda
-        mitad del siglo XX</string>
+    <string name="museum_description2">The Museum of Contemporary Art of Barcelona, ​​also known
+        by its acronym MACBA, is dedicated to the exhibition of works made during the second
+        half of the 20th century</string>
+
     <!-- MNAC -->
     <string name="museum_title3">MNAC</string>
-    <string name="museum_address3">Palau Nacional, Parc de Montjuïc, s/n, 08038 Barcelona</string>
+    <string name="museum_address3">Palau Nacional, Montjuïc, s/n, Barcelona</string>
     <string name="museum_hours3">Tue-Sun: 10/20h (Sunday until 15h)</string>
     <string name="museum_price3">12€, Free First Sunday of the month</string>
-    <string name="museum_description3">El Museo Nacional de Arte de Cataluña, también conocido por
-        sus siglas MNAC, está situado en la ciudad de Barcelona. Destaca por su colección de arte
-        Románico, considerada una de las más completas del mundo.</string>
+    <string name="museum_description3">The National Museum of Art of Catalonia, also known by
+        its acronym MNAC, is located in the city of Barcelona. Stands out for its art collection
+        Romanesque, considered one of the most complete in the world.</string>
+
     <!-- Museo Picasso -->
     <string name="museum_title4">Picasso Museum</string>
-    <string name="museum_address4">Carrer Montcada, 15, 08003 Barcelona</string>
+    <string name="museum_address4">15 Montcada St., Barcelona</string>
     <string name="museum_hours4">Everyday: 9/20:30h (Monday 10/17h, Thursday until 21h)</string>
     <string name="museum_price4">11€, Free Thursdays after 18h</string>
-    <string name="museum_description4">El museo Picasso de Barcelona, oficialmente y en catalán
-        Museu Picasso, posee una colección de 4.249 obras del pintor malagueño Pablo Picasso en los
-        múltiples medios que abordó la cual es la más completa del mundo en obras de su
-        juventud</string>
+    <string name="museum_description4">The Picasso Museum in Barcelona, ​​officially and in Catalan
+        Museu Picasso, has a collection of 4,249 works by the Malaga painter Pablo Picasso in the
+        multiple media that addressed which is the most complete in the world in its works
+        youth</string>
 
     <!-- Galleries -->
 
     <!-- Carles Tache -->
     <string name="gallery_title">Carles Tache Gallery</string>
-    <string name="gallery_address">Carrer de Mèxic, 19, 08004 Barcelona</string>
+    <string name="gallery_address">19 Mèxic St., Barcelona</string>
     <string name="gallery_hours">Tue-Sat: 11/20h</string>
     <string name="gallery_price">Free</string>
-    <string name="gallery_description">Galeria de arte contemporáneo de Barcelona que representa y
-        expone la obra de reconocidos artistas internacionales.</string>
+    <string name="gallery_description">Contemporary art gallery of Barcelona that represents and
+        exposes the work of renowned international artists.</string>
 
     <!-- Miguel Marcos -->
     <string name="gallery_title2">Miguel Marcos Gallery</string>
-    <string name="gallery_address2">Carrer de les Jonqueres, 10, 08003 Barcelona</string>
+    <string name="gallery_address2">10 Jonqueres St., Barcelona</string>
     <string name="gallery_hours2">Mon-Fri: 11/19:30h</string>
     <string name="gallery_price2">Free</string>
-    <string name="gallery_description2">Galeria de arte contemporáneo de Barcelona que representa y
-        expone la obra de reconocidos artistas internacionales.</string>
+    <string name="gallery_description2">Contemporary art gallery of Barcelona that represents and
+        exposes the work of renowned international artists.</string>
 
     <!-- Senda -->
     <string name="gallery_title3">Senda Gallery</string>
-    <string name="gallery_address3">Carrer de Trafalgar, 32, 08010 Barcelona</string>
+    <string name="gallery_address3">32 Trafalgar St., Barcelona</string>
     <string name="gallery_hours3">Tue-Sat: 11/20h</string>
     <string name="gallery_price3">Free</string>
-    <string name="gallery_description3">espacio de arte contemporáneo y productora artística que
-        trabaja con artistas emergentes y establecidos.</string>
+    <string name="gallery_description3">Space for contemporary art and artistic production that
+        works with emerging and established artists.</string>
 
     <!-- Victor Lope -->
     <string name="gallery_title4">Victor Lope Gallery</string>
-    <string name="gallery_address4">Carrer de Trafalgar, 32, 08010 Barcelona</string>
+    <string name="gallery_address4">75 Aribau St., Barcelona</string>
     <string name="gallery_hours4">Mon: 16h/20h,Tue-Fri: 11h/14h-16/20h,Sat:11/14h</string>
     <string name="gallery_price4">Free</string>
-    <string name="gallery_description4">Obras de una cuidada
-        selección de artistas emergentes de todo el mundo. Las disciplinas abarcadas comprenden
-        la escultura, pintura y fotografía</string>
-
+    <string name="gallery_description4">Works of a careful
+        selection of emerging artists from around the world. The disciplines covered include
+        sculpture, painting and photography</string>
 
     <!-- Foundations -->
 
     <!-- Joan Miro -->
     <string name="foundation_title">Joan Miró Foundation</string>
-    <string name="foundation_address">Parc de Montjuïc, s/n, 08038 Barcelona</string>
+    <string name="foundation_address">Parc de Montjuïc, s/n, Barcelona</string>
     <string name="foundation_hours">Everyday: 10/20h (Sun until 15h)</string>
     <string name="foundation_price">13€</string>
-    <string name="foundation_description">La Fundación Joan Miró está ubicada en la ciudad de
-        Barcelona y posee algunas de las obras más representativas de este pintor español.</string>
+    <string name="foundation_description">The Joan Miró Foundation is located in the city of
+        Barcelona and has some of the most representative works of this Spanish painter.</string>
 
     <!-- Antoni Tapies -->
     <string name="foundation_title2">Antoni Tàpies Foundation</string>
-    <string name="foundation_address2">Carrer de Aragó 255, 08007 Barcelona</string>
+    <string name="foundation_address2">255 Aragó St., Barcelona</string>
     <string name="foundation_hours2">Tue-Sun: 10/19h (Sun until 15h)</string>
     <string name="foundation_price2">7€</string>
-    <string name="foundation_description2">La Fundación Antoni Tàpies es un museo y centro cultural
-        situado en la ciudad de Barcelona. Está dedicado principalmente a la vida y la obra del
-        pintor español Antoni Tàpies.</string>
+    <string name="foundation_description2">The Antoni Tàpies Foundation is a museum and cultural
+        center located in the city of Barcelona. It is mainly dedicated to the life and work of the
+        Spanish painter Antoni Tàpies.</string>
 
     <!-- BlueProject -->
     <string name="foundation_title3">BlueProject Foundation</string>
-    <string name="foundation_address3">Carrer de la Princesa, 57, 08003 Barcelona</string>
+    <string name="foundation_address3">57 Princesa St., Barcelona</string>
     <string name="foundation_hours3">Tue-Sun: 10/20h</string>
     <string name="foundation_price3">Free</string>
-    <string name="foundation_description3">La Blueproject Foundation es una fundación de arte
-        contemporáneo.</string>
+    <string name="foundation_description3">Blueproject Foundation is a contemporary Art Space.</string>
 
     <!-- Gaspar -->
     <string name="foundation_title4">Gaspar Foundation</string>
-    <string name="foundation_address4">Carrer de Montcada, 25, 08003 Barcelona</string>
+    <string name="foundation_address4">25 Montcada St., Barcelona</string>
     <string name="foundation_hours4">Tue-Sun: 10/20h</string>
     <string name="foundation_price4">5€</string>
-    <string name="foundation_description4">Espacio dedicado al arte contemporáneo.</string>
+    <string name="foundation_description4">Contemporary Art Space</string>
 
     <!-- Events -->
 
     <!-- Swab -->
     <string name="event_title">Swab Art Fair</string>
-    <string name="event_address">Parc de Montjuïc, s/n, 08038 Barcelona</string>
+    <string name="event_address">Parc de Montjuïc, Barcelona</string>
     <string name="event_hours">28 Sept-1 Oct</string>
     <string name="event_price">to be confirmed€</string>
     <string name="event_description">Contemporary Art Fair</string>
@@ -164,17 +156,46 @@
 
     <!-- Art Photo Bcn -->
     <string name="event_title3">Art Photo Bcn</string>
-    <string name="event_address3">Antiga Escola Massana C/Hospital 56, Bcn</string>
+    <string name="event_address3">56 Hospital St., Bcn</string>
     <string name="event_hours3">4/6 May</string>
     <string name="event_price3">3€</string>
     <string name="event_description3">Contemporary Photography Art Fair</string>
 
     <!-- Art Libris -->
     <string name="event_title4">Art Libris</string>
-    <string name="event_address4">Carrer de Montcada, 25, 08003 Barcelona</string>
+    <string name="event_address4">25 Montcada St., Barcelona</string>
     <string name="event_hours4">20/24 Apr</string>
     <string name="event_price4">4€</string>
     <string name="event_description4">International Book Art Fair</string>
 
+    <!-- Transport -->
+    <string name="text_tmb">Click on logo for +info</string>
+
+    <!-- General Info -->
+    <string name="info_ciudad">Geography. \nBarcelona is the Catalonia capital.
+
+It is located in the northeast of Spain, a short distance from France and the Pyrenees.
+        The city has a population of 1,700,000 inhabitants, being the most populated city in Spain by
+        behind Madrid. The metropolitan area of ​​Barcelona is made up of 36 municipalities with
+        a total population of 3,300,000 inhabitants.
+        \n\nLanguages
+        \nIn Barcelona there are two official languages, Spanish and Catalan.
+
+        \n\nMoney
+        \nAs in all of Spain and most of Europe, the official currency of Barcelona is the Euro (€).
+
+        \n\nElectricity and plugs
+        \nPlugs in Barcelona are European type, have two round outputs and a voltage of 220V.
+
+        \n\nPhones of interest
+        \nEmergency and police: 112
+        \nGuardia urbana: 062
+        \nBomberos: 080
+        \nHealthiness: 061
+        \nPrefix of Spain: +34
+        \nPrefix of Barcelona: 93
+
+</string>
+    <string name="informacion_de_interes">General Information:</string>
 
 </resources>

@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -26,7 +25,7 @@ public class EventFragment extends Fragment {
 
         final ArrayList<Museum> museums = new ArrayList<Museum>();
 
-        //museum.add("one);
+        //museum.add("one");
 
         museums.add(new Museum(getString(R.string.event_title), getString(R.string.event_address),
                 getString(R.string.event_hours),getString(R.string.event_price),

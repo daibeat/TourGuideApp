@@ -5,7 +5,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-
 /**
  * {@link CategoryAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
  * each list item based on a data source which is a list of {@link Museum} objects.
@@ -15,14 +14,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     final int PAGE_COUNT = 4;
     Context context;
 
-
     /**
      * Create a new {@link CategoryAdapter} object.
      *
      * @param fm is the fragment manager that will keep each fragment's state in the adapter
      *           across swipes.
      */
-    public CategoryAdapter(FragmentManager fm,Context nContext) {
+    public CategoryAdapter(FragmentManager fm, Context nContext) {
         super(fm);
         context = nContext;
     }
@@ -49,7 +47,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return PAGE_COUNT;
     }
-
 
 
     @Override

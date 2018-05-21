@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Navigation Drawer -->
     <dimen name="nav_header_padding">16dp</dimen>
-
-    <dimen name="navDrawer_width">250dp</dimen>
+    <dimen name="navDrawer_width">300dp</dimen>
 
     <dimen name="cardView_margin">10dp</dimen>
     <dimen name="cardElevation">4dp</dimen>
@@ -18,12 +18,10 @@
     <dimen name="elevation_fabStyle">6dp</dimen>
     <dimen name="pressedTranslationZ_fabStyle">12dp</dimen>
 
-
     <!-- Title of Location -->
     <dimen name="photoLocation_height">150dp</dimen>
     <dimen name="title_height">40dp</dimen>
     <dimen name="title_textSize">15sp</dimen>
-
 
     <dimen name="drawablePadding">8dp</dimen>
     <dimen name="contact_textSize">10sp</dimen>
@@ -32,4 +30,12 @@
     <!-- GeneralInfo Screen -->
     <dimen name="expandedTitleMarginEnd">64dp</dimen>
     <dimen name="expandedTitleMarginStart">48dp</dimen>
+    <dimen name="margin_map">20dp</dimen>
+    <dimen name="margin_tmb">50dp</dimen>
+    <dimen name="height_nav">400dp</dimen>
+    <dimen name="textsize_tmb">20sp</dimen>
+    <dimen name="text_info_interes">20sp</dimen>
+    <dimen name="padding_info">20dp</dimen>
+    <dimen name="textSize_info_ciudad">15sp</dimen>
+    <dimen name="padding_info_ciudad">20dp</dimen>
 </resources>

@@ -16,7 +16,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -24,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
     private ListView mDrawerList;
     private ArrayAdapter<String> mAdapter;
-
 
     // Make sure to be using android.support.v7.app.ActionBarDrawerToggle version.
     // The android.support.v4.app.ActionBarDrawerToggle has been deprecated.
@@ -72,53 +70,48 @@ public class MainActivity extends AppCompatActivity {
      * Setup the navigation drawer list
      */
     private void addDrawerItems() {
-        String[] navArray = {getString(R.string.city_map), getString(R.string.general_info),
-                getString(R.string.transport)};
-        mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, navArray);
-        mDrawerList.setAdapter(mAdapter);
 
+        String[] navArray = {getString(R.string.city_map), getString(R.string.general_info),
+                (getString(R.string.transport))};
+
+        mAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, navArray);
+        mDrawerList.setAdapter(mAdapter);
 
         // Build the navigation header
         View headerView = View.inflate(this, R.layout.nav_header, null);
-        ((ImageView) headerView.findViewById(R.id.image_nav)).setImageResource(R.drawable.gamba3b);
-        ((TextView) headerView.findViewById(R.id.title_nav_drawer))
-                .setText(getString(R.string.city_drawer));
+        ((ImageView) headerView.findViewById(R.id.image_nav)).setImageResource(R.drawable.gambared_ldpi);
         mDrawerList.addHeaderView(headerView);
 
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Make an Intent to the Main Activity
-                // Show a short Toast message for the main screen
                 if (position == 0) {
                     Intent intent = new Intent(mMain, MainActivity.class);
                     startActivity(intent);
 
                 }
                 // Make an Intent to the City Map Activity
-                // Show a short Toast message for the main screen
                 if (position == 1) {
                     Intent intent = new Intent(mMain, Maps.class);
                     startActivity(intent);
 
                 }
                 // Make an Intent to the GeneralInfo Activity
-                // Show a short Toast message for the main screen
                 if (position == 2) {
                     Intent intent = new Intent(mMain, GeneralInfo.class);
                     startActivity(intent);
 
                 }
                 // Make an Intent to the Transport Activity
-                // Show a short Toast message for the main screen
                 if (position == 3) {
                     Intent intent = new Intent(mMain, Transport.class);
                     startActivity(intent);
                 }
             }
         });
-    }
 
+    }
 
     private void setupDrawer() {
         mDrawerToggle = new ActionBarDrawerToggle(this, mDrawer, R.string.drawer_open,
@@ -127,7 +120,6 @@ public class MainActivity extends AppCompatActivity {
 
         mDrawerToggle.setDrawerIndicatorEnabled(true);
         mDrawer.addDrawerListener(mDrawerToggle);
-
     }
 
     @Override
@@ -137,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -152,4 +143,5 @@ public class MainActivity extends AppCompatActivity {
         super.onConfigurationChanged(newConfig);
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
+
 }

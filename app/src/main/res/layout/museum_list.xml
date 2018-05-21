@@ -4,8 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <android.support.v7.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +21,7 @@
                 android:id="@+id/image_of_place"
                 style="@style/photoLocation"
                 android:contentDescription="@string/image_location"
-                android:src="@drawable/gamba" />
+                android:src="@drawable/gambared_ldpi" />
 
             <TextView
                 android:id="@+id/title_text_view"
@@ -41,7 +40,8 @@
                     android:layout_height="wrap_content"
                     android:maxLines="3"
                     android:padding="@dimen/padding_10dp"
-                    android:text="@string/museum_example" />
+                    android:text="@string/museum_example"
+                    android:textColor="@color/colorPrimary" />
 
                 <LinearLayout
                     android:id="@+id/horizontal_layout"

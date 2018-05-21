@@ -31,23 +31,23 @@ public class MuseumFragment extends Fragment {
 
         museums.add(new Museum(getString(R.string.museum_title), getString(R.string.museum_address),
                 getString(R.string.museum_hours), getString(R.string.museum_price),
-                getString(R.string.museum_description), R.drawable.caixaforum));
+                getString(R.string.museum_description), R.drawable.caixaforumcolor_ldpi));
 
         museums.add(new Museum(getString(R.string.museum_title2), getString(R.string.museum_address2),
                 getString(R.string.museum_hours2), getString(R.string.museum_price2),
-                getString(R.string.museum_description2), R.drawable.macba2));
+                getString(R.string.museum_description2), R.drawable.macbacolor_lpdi));
 
         museums.add(new Museum(getString(R.string.museum_title3), getString(R.string.museum_address3),
                 getString(R.string.museum_hours3), getString(R.string.museum_price3),
-                getString(R.string.museum_description3), R.drawable.mnac2));
+                getString(R.string.museum_description3), R.drawable.mnaccolor_lhdpi));
 
         museums.add(new Museum(getString(R.string.museum_title3), getString(R.string.museum_address3),
                 getString(R.string.museum_hours3), getString(R.string.museum_price3),
-                getString(R.string.museum_description3), R.drawable.cccb));
+                getString(R.string.museum_description3), R.drawable.cccbcolor_ldpi));
 
         museums.add(new Museum(getString(R.string.museum_title4), getString(R.string.museum_address4),
                 getString(R.string.museum_hours4), getString(R.string.museum_price4),
-                getString(R.string.museum_description4), R.drawable.museopicasso2));
+                getString(R.string.museum_description4), R.drawable.museupicassocolor));
 
 
         // This list item layout contains a layout of location information, that includes
@@ -69,11 +69,15 @@ public class MuseumFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 // Send intent to new {@Link LocationDetailActivity} with details for the current selected
-                // location. Currently not working.
+                // museum.
                 Intent intent = new Intent(getActivity(), MuseumDetailActivity.class);
+
                 startActivity(intent);
+
+
             }
         });
+
 
         return rootView;
     }
