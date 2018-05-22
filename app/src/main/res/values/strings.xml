@@ -4,9 +4,10 @@
     <string name="hello_blank_fragment">Blank fragment</string>
 
     <!-- Navigation Drawer Items -->
-    <string name="general_info">General Information</string>
-    <string name="city_map">City Map</string>
-    <string name="transport">Transport</string>
+
+    <string name="city_map"><![CDATA[<span style="color:#FFFFFF">City Map</span>]]></string>
+    <string name="general_info"><![CDATA[<span style="color:#FFFFFF">General Information</span>]]></string>
+    <string name="transport"><![CDATA[<span style="color:#FFFFFF">Transport</span>]]></string>
 
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>

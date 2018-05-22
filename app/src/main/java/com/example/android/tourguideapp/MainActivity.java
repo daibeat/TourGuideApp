@@ -10,6 +10,8 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.Spanned;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawer;
     private ListView mDrawerList;
-    private ArrayAdapter<String> mAdapter;
+    private ArrayAdapter<Spanned> mAdapter;
 
     // Make sure to be using android.support.v7.app.ActionBarDrawerToggle version.
     // The android.support.v4.app.ActionBarDrawerToggle has been deprecated.
@@ -71,8 +73,9 @@ public class MainActivity extends AppCompatActivity {
      */
     private void addDrawerItems() {
 
-        String[] navArray = {getString(R.string.city_map), getString(R.string.general_info),
-                (getString(R.string.transport))};
+        Spanned [] navArray = {Html.fromHtml(getString(R.string.city_map)),
+                Html.fromHtml(getString(R.string.general_info)),
+                Html.fromHtml(getString(R.string.transport))};
 
         mAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, navArray);
         mDrawerList.setAdapter(mAdapter);
